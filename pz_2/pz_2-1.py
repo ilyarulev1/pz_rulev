@@ -11,4 +11,4 @@ while type(number) != int: #обработка исключений
  except ValueError:
   print("Введено не целое число")
   number = input("Введите число больше 999: ")
-print((number // 1000) % 10) #вывод результата
+print((number // 1000) % 10) #вывод результата\
