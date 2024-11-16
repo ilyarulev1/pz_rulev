@@ -6,7 +6,7 @@ number = input("Введите трехзначное число")
 while type(number) != int:     # обработка исключений
     try:
         number = int(number)
-    except:
+    except ValueError:
         print("Неправильный ввод")
         number = input("Введите трехзначное число")
 
